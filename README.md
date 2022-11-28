@@ -58,6 +58,8 @@ Log objects from the `data` event will contain a few fields:
   logName: 'Application',
   // if available, the processId
   processId: null, 
+  // if available, the newProcessId (example scenario: process creation)
+  newProcessId: null, 
   // if available, the threadId
   threadId: undefined,
   machineName: 'DESKTOP-1M76SII',
